@@ -29,7 +29,7 @@ public class LogExample {
     public static void main(String[] args) throws IgniteException {
         Ignite ignite = Ignition.start("example-ignite.xml");
 
-        ignite.close();
+//        ignite.close();
     }
 }
 
